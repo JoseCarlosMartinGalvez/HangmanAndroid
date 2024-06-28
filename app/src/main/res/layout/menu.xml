@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:id="@+id/TextMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Hangman"
+        android:textSize="40dp"
+        android:layout_marginTop="200dp"
+        />
+
+    <ImageView
+        android:id="@+id/ImageMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/img0"
+        android:layout_below="@+id/TextMenu"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        app:tint="@color/black" />
+
+
+    <Button
+        android:id="@+id/playBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/ImageMenu"
+        android:text="Jugar"
+        android:layout_centerHorizontal="true"
+        android:onClick="play"
+        android:backgroundTint="@color/black"
+        />
+
+
+
+</RelativeLayout>
